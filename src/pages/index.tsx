@@ -2,6 +2,7 @@ import styles from './index.less';
 import {useEffect, useState} from "react";
 import Nav from "@/layouts/Nav";
 import Menu from "@/layouts/Menu";
+import Content from "@/layouts/Content";
 
 export default function IndexPage() {
 
@@ -16,19 +17,9 @@ export default function IndexPage() {
   return (
 
     <div>
-      <Nav />
-
-      {/*<h1 className={styles.title}>Page index</h1>*/}
-      <div style={{
-        marginTop: "100px",
-      }}>
-        <Menu/>
-        <div style={{
-          height: "1000px",
-        }}>
-          {content}
-        </div>
-      </div>
+      <Nav/>
+      <Menu/>
+      <Content/>
     </div>
   );
 }

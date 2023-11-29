@@ -3,12 +3,10 @@ import React from 'react';
 const Menu: React.FC = () => {
 
   const menuStyle = {
-    width: "150px",
-    height: "500px",
+    width: "100px",
+    height: "700px",
     backgroundColor: "blue",
-    float: "left",
-    display: "block",
-    position: "fixed",
+    position: "fixed"
   }
 
   return (
