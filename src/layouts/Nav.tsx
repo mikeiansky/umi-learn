@@ -6,13 +6,34 @@ const Nav: React.FC = () => {
 
   const navStyle = {
     width: "100%",
-    height: "100px",
-    backgroundColor: "red",
+    height: "50px",
+  }
+
+  const ulStyle = {
+    listStyle: "none",
+    display: "inline-block",
+    float: "right",
+
+  }
+
+  const liStyle = {
+    display: "block",
+    paddingTop: "10px",
+    paddingBottom: "10px",
+    paddingLeft: "10px",
+    paddingRight: "10px",
+    float:"left",
+    backgroundColor: "#f0f0f0",
   }
 
   return (
     <div style={navStyle}>
-      This is nav
+
+      <ul style={ulStyle}>
+        <li style={liStyle}><a>个人入口</a></li>
+        <li style={liStyle}><a>企业入口</a></li>
+      </ul>
+
     </div>
   );
 }

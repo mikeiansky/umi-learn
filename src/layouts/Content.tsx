@@ -7,6 +7,7 @@ const Content: React.FC = () => {
     width: "100%",
     height: "1500px",
     backgroundColor: "green",
+    marginLeft: "100px",
   }
 
   return (
