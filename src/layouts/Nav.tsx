@@ -2,7 +2,7 @@ import React from 'react';
 
 const Nav: React.FC = () => {
 
-  // localStorage.setItem("", "");
+  localStorage.setItem("address", "shenzhen");
 
   const navStyle = {
     width: "100%",
