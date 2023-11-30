@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Menu: React.FC = () => {
+const menu: React.FC = () => {
 
   const menuStyle = {
     width: "100px",
@@ -24,15 +24,15 @@ const Menu: React.FC = () => {
   return (
     <div style={menuStyle}>
       <ul style={ulStyle}>
-        <li style={liStyle}><a>实习</a></li>
-        <li style={liStyle}><a>校招</a></li>
-        <li style={liStyle}><a>空宣</a></li>
-        <li style={liStyle}><a>全职</a></li>
-        <li style={liStyle}><a>课程</a></li>
-        <li style={liStyle}><a>干货</a></li>
+        <li style={liStyle}><a href="/internship">实习</a></li>
+        <li style={liStyle}><a href="/campus">校招</a></li>
+        <li style={liStyle}><a href="/job">全职</a></li>
+        <li style={liStyle}><a href="/tv">空宣</a></li>
+        <li style={liStyle}><a href="/course">课程</a></li>
+        <li style={liStyle}><a href="/knowledge">干货</a></li>
       </ul>
     </div>
   );
 }
 
-export default Menu;
+export default menu;

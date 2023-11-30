@@ -30,8 +30,8 @@ const Nav: React.FC = () => {
     <div style={navStyle}>
 
       <ul style={ulStyle}>
-        <li style={liStyle}><a>个人入口</a></li>
-        <li style={liStyle}><a>企业入口</a></li>
+        <li style={liStyle}><a href="/account">个人入口</a></li>
+        <li style={liStyle}><a href="/account">企业入口</a></li>
       </ul>
 
     </div>

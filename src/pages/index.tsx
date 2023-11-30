@@ -1,8 +1,5 @@
 import styles from './index.less';
 import {useEffect, useState} from "react";
-import Nav from "@/layouts/Nav";
-import Menu from "@/layouts/Menu";
-import Content from "@/layouts/Content";
 
 export default function IndexPage() {
 
@@ -17,9 +14,7 @@ export default function IndexPage() {
   return (
 
     <div>
-      <Nav/>
-      <Menu/>
-      <Content/>
+      this is index page
     </div>
   );
 }
