@@ -11,11 +11,15 @@ export default (props: any) => {
         marginLeft: "100px",
     }
 
+    const menuStyle = {
+        height: "100%",
+    }
+
     return (
 
         <div>
             <Nav/>
-            <Menu/>
+            <Menu />
             {/*<Content/>*/}
 
             <div style={contentStyle}>

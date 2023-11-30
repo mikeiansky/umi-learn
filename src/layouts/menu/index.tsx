@@ -1,12 +1,13 @@
 import React from 'react';
 
+import styles from "./menu.module.scss";
 const menu: React.FC = () => {
 
-  const menuStyle = {
-    width: "100px",
-    height: "700px",
-    position: "fixed"
-  }
+  // const menuStyle = {
+  //   width: "100px",
+  //   height: "700px",
+  //   position: "fixed"
+  // }
 
   const ulStyle = {
     listStyle: "none",
@@ -22,7 +23,7 @@ const menu: React.FC = () => {
   }
 
   return (
-    <div style={menuStyle}>
+    <div className={styles.menuStyle}>
       <ul style={ulStyle}>
         <li style={liStyle}><a href="/internship">实习</a></li>
         <li style={liStyle}><a href="/campus">校招</a></li>
